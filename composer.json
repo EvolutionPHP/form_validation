@@ -1,0 +1,25 @@
+{
+  "name": "evolutionphp/form_validation",
+  "description": "PHP Form Validation.",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "php",
+    "form validation",
+    "validation"
+  ],
+  "authors": [
+    {
+      "name": "Andres Mendoza",
+      "homepage": "https://twitter.com/EvolutionPHP"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "EvolutionPHP\\FormValidation\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=8.2"
+  }
+}
