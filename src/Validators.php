@@ -434,7 +434,7 @@ class Validators
 	 * @param	string
 	 * @return	bool
 	 */
-	public function valid_date($value, $format)
+	public function valid_date($value, $format='d/m/Y')
 	{
 		$d = \DateTime::createFromFormat($format, $value);
 		return $d && $d->format($format) === $value;
